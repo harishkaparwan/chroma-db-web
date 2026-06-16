@@ -10,9 +10,11 @@ Live at: **https://harishkaparwan.github.io/chroma-db-web/**
 index.html          ← Landing page (served at root)
 app/                ← Built React workbench (populated by deploy:web)
 public/
-  assets/           ← Logo and static images
+  assets/           ← Logo, walkthrough GIF, and static images
+  Desktop/          ← Tauri/macOS desktop icon assets
   policy/
     privacy.html    ← Privacy Policy
+  webpage/          ← Static plugin home page assets
 .github/workflows/
   deploy.yml        ← GitHub Pages deploy workflow (GitHub Actions)
 ```
